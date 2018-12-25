@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import './components/Form.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
 import BeforeGame from './components/BeforeGame';
 import PreparePlayers from './components/PreparePlayers';
+
 
 class App extends Component {
   render() {
