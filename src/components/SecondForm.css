@@ -8,6 +8,9 @@
    cursor: pointer;
    border:none;
 }
-.back {
-  
+.opt {
+  font-size: 10px;
+}
+.selector {
+  font-size: 17px;
 }

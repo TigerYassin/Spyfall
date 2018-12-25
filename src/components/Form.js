@@ -1,6 +1,6 @@
-import React from 'react';
-import './Form.css';
+import React, { Fragment } from "react";
 import { MDBBtn } from "mdbreact";
+import './Form.css';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,15 +10,15 @@ export class FormAndInput extends React.Component {
       <div>
         <form>
           <p>
-            <input type="text" id="inputMDEx" class="form-control" placeholder='Type your Name' name='name' />
+            <input type="text" id="inputMDEx" className="form-control" placeholder='Type your Name' name='name' />
           </p>
           <p>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroupMaterial-sizing-sm" placeholder='Access Code' name='code' />
+            <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroupMaterial-sizing-sm" placeholder='Access Code' name='code' />
           </p>
           <p>
-            <Link to="/BeforeGame">
-              <button className="start" class="btn btn-primary">Start Game</button>
-            </Link>
+          <Link to="/BeforeGame">
+            <button className="btn btn-primary">Start Game</button>
+          </Link>
           </p>
         </form>
       </div>
