@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Container className="container">
           <Row className="title">
-            <Col sm="12" md="12" className="col">Welcome to Skyfall</Col>
+            <Col sm="12" md="12" className="col">Welcome to Spyfall</Col>
           </Row>
           <Row>
             <Col sm={{ size: 6, offset: 3 }} md={{ size: 6, offset: 3 }} className="col"><FormAndInput /></Col>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Form.css';
+import { MDBBtn } from "mdbreact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export class FormAndInput extends React.Component {
@@ -7,9 +8,13 @@ export class FormAndInput extends React.Component {
     return (
       <div>
         <form>
-          <p><input class="form-control input-sm" type='text' placeholder='Type your Name' name='name' /></p>
-          <p><input class="form-control input-sm" type='text' placeholder='Access Code' name='code' /></p>
-          <p><button className="start">Start</button></p>
+          <p>
+            <input type="text" id="inputMDEx" class="form-control" placeholder='Type your Name' name='name' />
+          </p>
+          <p>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroupMaterial-sizing-sm" placeholder='Access Code' name='code' />
+          </p>
+          <p><button className="start" class="btn btn-primary">Start Game</button></p>
         </form>
       </div>
     )
