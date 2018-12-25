@@ -5,14 +5,15 @@
   text-align: center;
 }
 .col {
-  font-size: 3.0rem;
+  font-size: 4.0rem;
   letter-spacing: -.08rem;
   font-weight: 300;
   display: block;
   line-height: 1.35;
+  font-family:  'Mountains of Christmas', cursive;
 }
 .title {
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 100px;
 }

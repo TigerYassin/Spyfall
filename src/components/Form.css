@@ -7,6 +7,14 @@
    text-decoration: none;
    cursor: pointer;
 }
-.startButton {
-  font-family: 'Montserrat', sans-serif;
+.btn {
+  background-color: #26890C;
+}
+
+.form {
+  background-color: #90EE90;
+}
+#inputMDEx {
+  background-color: #90EE90;
+  font-size: 50px;
 }

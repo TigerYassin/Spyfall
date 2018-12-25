@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { FormAndInput } from './Form.js'
 import './Home.css'
 
+
 class Home extends Component {
   render() {
     return (

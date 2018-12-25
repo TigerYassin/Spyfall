@@ -9,8 +9,16 @@
    border:none;
 }
 .opt {
-  font-size: 10px;
+  font-size: 20px;
 }
 .selector {
   font-size: 17px;
+}
+.back {
+  background-color: #268900;
+}
+
+#inputMDEx {
+  background-color: #90EE90;
+  font-size: 50px;
 }
