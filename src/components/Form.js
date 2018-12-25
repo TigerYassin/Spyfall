@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React from 'react';
+=======
+import React, { Fragment } from "react";
+>>>>>>> ahmed
 import { MDBBtn } from "mdbreact";
+import './Form.css';
 import { Link } from 'react-router-dom';
 
 var NextPage = "/BeforeGame";
@@ -30,6 +35,7 @@ handleChangeU(e){
       <div>
         <form>
           <p>
+<<<<<<< HEAD
             <input type="text" id="inputMDEx" class="form-control" placeholder='Type your Name' name='name' value= {this.state.UserName} onChange={this.handleChangeU}/>
           </p>
           <p>
@@ -38,6 +44,16 @@ handleChangeU(e){
           <p>
           <Link to= {NextPage}>
               <button className="start" class="btn btn-primary">Start Game</button>
+=======
+            <input type="text" id="inputMDEx" className="form-control" placeholder='Type your Name' name='name' />
+          </p>
+          <p>
+            <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroupMaterial-sizing-sm" placeholder='Access Code' name='code' />
+          </p>
+          <p>
+          <Link to="/BeforeGame">
+            <button className="btn btn-primary">Start Game</button>
+>>>>>>> ahmed
           </Link>
           </p>
         </form>
