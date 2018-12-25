@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Buttons } from './components/Button.js'
-import { Container, Row, Col } from 'reactstrap';
-import { FormAndInput } from './components/Form.js'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './components/Home';
+import BeforeGame from './components/BeforeGame';
+import PreparePlayers from './components/PreparePlayers';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Container className="container">
-          <Row className="title">
-            <Col sm="12" md="12" className="col">Welcome to Spyfall</Col>
-          </Row>
-          <Row>
-            <Col sm={{ size: 6, offset: 3 }} md={{ size: 6, offset: 3 }} className="col"><FormAndInput /></Col>
-          </Row>
-        </Container>
-      </div>
+      <Router>
+        <div>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/BeforeGame' component={BeforeGame} />
+          <Route exact path='/starting' component={PreparePlayers} />
+        </div>
+      </Router>
     );
   }
 }
