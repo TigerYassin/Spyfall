@@ -1,0 +1,14 @@
+.show {
+  background-color: inherit;
+  border-color: #b71c1c;
+  border: 0;
+}
+.btn:hover {
+  background: #eee;
+}
+.hide {
+  background-color: inherit;
+  border-color: #b71c1c;
+  border: 0;
+  color: #b71c1c;
+}

@@ -1,31 +1,22 @@
-.secondStart {
-  background-color: #ff3333;
-  border-radius:7px;
-  opacity: 0.8;
-  color: #000000;
-  border-color: #bfbfbf;
-  border-radius: 20px;
-  font-family:  'Mountains of Christmas', cursive;
-  font-size: 30px;
-  text-decoration: none;
-  cursor: pointer;
-}
-.opt {
-  font-size: 20px;
-}
-.selector {
-  font-size: 17px;
-}
-.back {
-  background-color: #268900;
+.secondStart   {
+   background-color: #ff3333;
+   opacity: 0.8;
+   color: #000000;
+   border-color: #bfbfbf;
+   border-radius: 20px;
+   font-family:  'Mountains of Christmas', cursive;
+   font-size: 30px;
+   text-decoration: none;
+   cursor: pointer;
+   border-style: dashed;
+   margin: 0px;
 }
 
+.form {
+  background-color: #90EE90;
+}
 #inputMDEx {
   background-color: #90EE90;
-  font-size: 50px;
-}
-
-.btn {
-  background-color: #268900;
-  font-size: 500px;
+  font-size: 20px;
+  border-radius: 10px;
 }

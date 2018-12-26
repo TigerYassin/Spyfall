@@ -14,10 +14,10 @@ export default class BeforeGame extends Component {
               <a href="https://fontmeme.com/christmas-fonts/" /><img src="https://fontmeme.com/permalink/181225/e3647eda26ffa0189b616f009df211b6.png" alt="christmas-fonts" border="0" />
             </Col>
           </Row>
-          
+
           <Row className="title" id="imageBox">
             <Col sm="12" md="12" className="col">
-              <a href="https://fontmeme.com/christmas-fonts/" /><img src="https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/d/d3/Noel3.png/revision/latest?cb=20171208151106" alt="christmas-fonts" border="0" class="image"/>
+              <a href="https://fontmeme.com/christmas-fonts/" /><img src="https://valeriesmusings76.files.wordpress.com/2016/11/xmas2.png?w=820" alt="christmas-fonts" border="0" class="image"/>
             </Col>
           </Row>
 

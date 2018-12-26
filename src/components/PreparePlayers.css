@@ -65,3 +65,19 @@
 .box {
   color: red;
 }
+
+.list-group-item {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  background-color: red;
+  margin-bottom: 10px;
+
+}
+
+.list-group li {
+  margin-bottom: 20px;
+}
+.secondStart {
+  margin: 50px;
+}

@@ -9,10 +9,10 @@
    font-size: 30px;
    text-decoration: none;
    cursor: pointer;
+   border-style: dashed;
 }
 .btn {
   background-color: #268900;
-
 }
 
 .form {

@@ -29,6 +29,7 @@ handleChangeU(e){
     return (
       <div>
         <form>
+
           <p>
             <input type="text" id="inputMDEx" class="form-control" class="input-lg" placeholder='Type your Name' name='name' value= {this.state.UserName} onChange={this.handleChangeU}/>
           </p>

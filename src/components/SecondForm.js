@@ -30,12 +30,14 @@ export class SecondForm extends React.Component {
 
           </p>
           <p>
+            <div>
             <Link to="/">
               <button className="btn btn-primary" class="secondStart">Back</button>
             </Link>
             <Link to="/PreparePlayers">
               <button className="btn btn-primary" class="secondStart">Start Game</button>
             </Link>
+            </div>
           </p>
         </form>
       </div>
