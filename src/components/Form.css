@@ -1,14 +1,18 @@
 .start {
-   background-color: #ccc;
+   background-color: #ff3333;
    border-radius:7px;
-   color: #fff;
-   font-family: 'Oswald';
+   opacity: 0.8;
+   color: #000000;
+   border-color: #bfbfbf;
+   border-radius: 20px;
+   font-family:  'Mountains of Christmas', cursive;
    font-size: 30px;
    text-decoration: none;
    cursor: pointer;
 }
 .btn {
-  background-color: #26890C;
+  background-color: #268900;
+
 }
 
 .form {
@@ -16,5 +20,6 @@
 }
 #inputMDEx {
   background-color: #90EE90;
-  font-size: 50px;
+  font-size: 20px;
+  border-radius: 10px;
 }

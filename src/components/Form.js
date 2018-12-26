@@ -30,14 +30,14 @@ handleChangeU(e){
       <div>
         <form>
           <p>
-            <input type="text" id="inputMDEx" class="form-control" placeholder='Type your Name' name='name' value= {this.state.UserName} onChange={this.handleChangeU}/>
+            <input type="text" id="inputMDEx" class="form-control" class="input-lg" placeholder='Type your Name' name='name' value= {this.state.UserName} onChange={this.handleChangeU}/>
           </p>
           <p>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroupMaterial-sizing-sm" placeholder='Access Code' name='code' value= {this.state.AccessCode} onChange={this.handleChange} />
+            <input type="text" id="inputMDEx" class="form-control" class="input-lg" aria-label="Sizing example input" aria-describedby="inputGroupMaterial-sizing-sm" placeholder='Access Code' name='code' value= {this.state.AccessCode} onChange={this.handleChange} />
           </p>
           <p>
           <Link to= {NextPage}>
-              <button className="start" class="btn btn-primary">Start Game</button>
+              <button className="btn btn-primary" class="start">Start Game</button>
           </Link>
           </p>
         </form>
