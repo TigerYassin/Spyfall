@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { GetPlayer } from './GetPlayers.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PreparePlayers.css'
 
@@ -7,6 +8,7 @@ export default class PreparePlayers extends Component {
     return (
       <div className="PreparePlayers">
         <h1>"Let's Play"</h1>
+        <GetPlayer />
       </div>
     )
   }

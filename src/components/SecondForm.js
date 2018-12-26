@@ -33,7 +33,7 @@ export class SecondForm extends React.Component {
             <Link to="/">
               <button className="btn btn-primary" class="btn">Back</button>
             </Link>
-            <Link to="/starting">
+            <Link to="/PreparePlayers">
               <button className="btn btn-primary" class="btn">Start Game</button>
             </Link>
           </p>

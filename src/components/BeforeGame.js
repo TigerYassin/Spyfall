@@ -16,6 +16,9 @@ export default class BeforeGame extends Component {
             <Col sm={{ size: 6, offset: 3 }} md={{ size: 6, offset: 3 }} className="col"><SecondForm  /></Col>
           </Row>
         </Container>
+
+        //TODO add username and accesscode to database
+
       </div>
     )
   }
