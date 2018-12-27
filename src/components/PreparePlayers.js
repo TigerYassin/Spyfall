@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { GetPlayer } from './GetPlayers.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './PreparePlayers.css'
 import { Container, Row, Col } from 'reactstrap';
@@ -63,8 +62,6 @@ export default class PreparePlayers extends Component {
           </Row>
 
         </Container>
-
-        <GetPlayer />
       </div>
     )
   }
