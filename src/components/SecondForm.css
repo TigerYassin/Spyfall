@@ -9,7 +9,7 @@
    text-decoration: none;
    cursor: pointer;
    border-style: dashed;
-   margin: 0px;
+   margin: 10px;
 }
 
 .form {
@@ -17,6 +17,6 @@
 }
 #inputMDEx {
   background-color: #90EE90;
-  font-size: 20px;
+  font-size: 40px;
   border-radius: 10px;
 }

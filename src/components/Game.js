@@ -42,21 +42,21 @@ export default class Game extends Component {
             <div className="row">
               <div className="col-4 col-md-4 middle" >
                 <ul class="list-group">
-                  <li class="list-group-item">Tony</li>
-                  <li class="list-group-item">Peter</li>
-                  <li class="list-group-item">Steve</li>
+                  <li className="list-group-item" id="names">Tony</li>
+                  <li className="list-group-item" id="names">Peter</li>
+                  <li className="list-group-item" id="names">Steve</li>
                 </ul>
               </div>
               <div class="col-4 col-md-4 middle">
                 <ul class="list-group">
-                  <li class="list-group-item">Nick</li>
-                  <li class="list-group-item">Miles</li>
+                  <li className="list-group-item" id="names">Nick</li>
+                  <li className="list-group-item" id="names">Miles</li>
                 </ul>
               </div>
               <div class="col-4 col-md-4 middle">
                 <ul class="list-group">
-                  <li class="list-group-item">Bruce</li>
-                  <li class="list-group-item">Clark</li>
+                  <li className="list-group-item" id="names">Bruce</li>
+                  <li className="list-group-item" id="names">Clark</li>
                 </ul>
               </div>
             </div>
@@ -71,19 +71,18 @@ export default class Game extends Component {
 
         <Row>
           <Col sm={{ size: 6, offset: 3 }} md={{ size: 6, offset: 3 }} className="col">
-
             <div className="row">
               <div className="col-6 col-md-6 middle" >
                 <ul class="list-group">
-                  <li class="list-group-item">Central Park</li>
-                  <li class="list-group-item">Desert</li>
-                  <li class="list-group-item">Antartica</li>
+                  <li className="list-group-item" id="names">Central Park</li>
+                  <li className="list-group-item" id="names">Desert</li>
+                  <li className="list-group-item" id="names">Antartica</li>
                 </ul>
               </div>
               <div class="col-6 col-md-6 middle">
                 <ul class="list-group">
-                  <li class="list-group-item">Space</li>
-                  <li class="list-group-item">Sky</li>
+                  <li className="list-group-item" id="names">Space</li>
+                  <li className="list-group-item" id="names">Sky</li>
                 </ul>
               </div>
             </div>

@@ -26,8 +26,6 @@ export default class BeforeGame extends Component {
           </Row>
         </Container>
 
-        //TODO add username and accesscode to database
-
       </div>
     )
   }

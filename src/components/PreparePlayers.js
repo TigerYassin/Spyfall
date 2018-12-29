@@ -25,21 +25,21 @@ export default class PreparePlayers extends Component {
               <div className="row">
                 <div className="col-4 middle" >
                   <ul class="list-group">
-                    <li class="list-group-item">Tony</li>
-                    <li class="list-group-item">Peter</li>
-                    <li class="list-group-item">Steve</li>
+                    <li className="list-group-item" id="names">Tony</li>
+                    <li className="list-group-item" id="names">Peter</li>
+                    <li className="list-group-item" id="names">Steve</li>
                   </ul>
                 </div>
                 <div class="col-4 col-md-4 middle">
                   <ul class="list-group">
-                    <li class="list-group-item">Nick</li>
-                    <li class="list-group-item">Miles</li>
+                    <li className="list-group-item" id="names">Nick</li>
+                    <li className="list-group-item" id="names">Miles</li>
                   </ul>
                 </div>
                 <div class="col-4 col-md-4 middle">
                   <ul class="list-group">
-                    <li class="list-group-item">Bruce</li>
-                    <li class="list-group-item">Clark</li>
+                    <li className="list-group-item" id="names">Bruce</li>
+                    <li className="list-group-item" id="names">Clark</li>
                   </ul>
                 </div>
               </div>
